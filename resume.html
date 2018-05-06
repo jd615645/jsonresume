@@ -1,0 +1,592 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>杜杰</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						杜杰
+					</h1>
+					<h2>
+						
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jd615645@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+886 925718080</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://sakamoto.com.tw">https://sakamoto.com.tw</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>從小對資訊相關的事物都會想嘗試，也因如此我從電腦硬體裝修到各種軟體的應用，程式、網頁設計都多少有點接觸。  目前就讀於中興大學資訊科學與工程學系，曾在中文系擔任教授的研究計畫助理；另外也在學校圖書館校史館打工，負責機構典藏網頁的維護。在某些機緣下我擔任了資訊社的副社長，在這裡認識了一群和我有同樣興趣的人，也希望在這裡能帶動中興的資訊風氣。</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/jd615645">jd615645</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Blog
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://jd615645.github.io">jd615645</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學</span>
+					<span class="date">
+						2014-10-01 — 2015-11-31
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://dh-project.blogspot.tw/p/localwiki.html">http://dh-project.blogspot.tw/p/localwiki.html</a>
+				</div>
+				<div class="position">
+					國科會研究計劃兼任助理
+				</div>
+				<div class="summary">
+					<p>在中興大學中文系解昆樺教授的研究計畫擔任研究助理，在這幫忙處理一些資訊相關的問題，協助將台中文史地景數位化，學習跨領域的合作。</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">http://dh-project.blogspot.tw/p/localwiki.html</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學</span>
+					<span class="date">
+						2015-07-01 — 2018-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://ir.lib.nchu.edu.tw/">http://ir.lib.nchu.edu.tw/</a>
+				</div>
+				<div class="position">
+					校史館工讀生
+				</div>
+				<div class="summary">
+					<p>主要館理圖書館校史館管理機構論文典藏系統，我負 責上傳教授論文以及根據圖書館的需求位系統增加一些功能， 另外會協助校史館的數位策展的寫一些導覽或是形象網頁。</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">https://ir.lib.nchu.edu.tw/</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學</span>
+					<span class="date">
+						2017-12-01 — 2018-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					科技部資安旗艦計畫兼任助理
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學資訊社</span>
+					<span class="date">
+						2015-09-01 — 2016-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					副社長
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學資訊社</span>
+					<span class="date">
+						2016-09-01 — 2017-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					社長
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學學生會</span>
+					<span class="date">
+						2016-09-01 — 2017-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					資訊部 副部長
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>2017學生計算機年會</span>
+					<span class="date">
+						2017-03-18 — 2017-03-18
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.slideshare.net/ssuserb8be06/ss-73305383">https://www.slideshare.net/ssuserb8be06/ss-73305383</a>
+				</div>
+				<div class="position">
+					講者
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>國立中興大學</span>
+					<span class="date">
+						2014-09-01 — 2018-06-30
+					</span>
+				</h4>
+				<div class="area">
+					資訊科學與工程學系
+				</div>
+				<div class="studyType">
+					學士班
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>國立交通大學</span>
+					<span class="date">
+						2018-09-14 — 
+					</span>
+				</h4>
+				<div class="area">
+					資訊工程學系
+				</div>
+				<div class="studyType">
+					碩士班
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>2015年第38次 ITSA 線上程式設計競賽</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2015
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>績優團隊</strong>
+				</div>
+				<div class="summary">
+					
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>中興大學資訊科學與工程學系大學部資訊專題競賽</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-06-02
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>佳作</strong>
+				</div>
+				<div class="summary">
+					空氣污染監測系統
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>2017 台灣作業研究協會大專院校專題競賽</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-06-16
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>第三名</strong>
+				</div>
+				<div class="summary">
+					空氣污染監測系統
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>2017台大黑客松 威盛電子 OLAMI人機語音交互應用</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2017-07-23
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>最佳創客獎</strong>
+				</div>
+				<div class="summary">
+					校史館智慧導覽系統
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>JQuery</li>
+					<li>Pug/Jade</li>
+					<li>Vue.js</li>
+					<li>Sass/Scss</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Back End</h4>
+				</div>
+				<ul class="keywords">
+					<li>Node.js</li>
+					<li>PHP(Laravel)</li>
+					<li>MySQL</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>DevOps</h4>
+				</div>
+				<ul class="keywords">
+					<li>Nginx</li>
+					<li>Ubuntu</li>
+					<li>Debian</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Other</h4>
+				</div>
+				<ul class="keywords">
+					<li>PhotoShop</li>
+					<li>Word</li>
+					<li>PowerPoint</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	</div>
+	
+	</body>
+</html>

@@ -1,0 +1,193 @@
+{
+  "basics": {
+    "name": "杜杰",
+    "label": "",
+    "picture": "",
+    "email": "jd615645@gmail.com",
+    "phone": "+886 925718080",
+    "website": "https://sakamoto.com.tw",
+    "summary": "從小對資訊相關的事物都會想嘗試，也因如此我從電腦硬體裝修到各種軟體的應用，程式、網頁設計都多少有點接觸。  目前就讀於中興大學資訊科學與工程學系，曾在中文系擔任教授的研究計畫助理；另外也在學校圖書館校史館打工，負責機構典藏網頁的維護。在某些機緣下我擔任了資訊社的副社長，在這裡認識了一群和我有同樣興趣的人，也希望在這裡能帶動中興的資訊風氣。",
+    "location": {
+      "address": "五權南路175號3F-2",
+      "postalCode": "402",
+      "city": "台中市",
+      "countryCode": "TW",
+      "region": "南區"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "jd615645",
+        "url": "https://github.com/jd615645"
+      },
+      {
+        "network": "Blog",
+        "username": "jd615645",
+        "url": "https://jd615645.github.io"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "中興大學",
+      "position": "國科會研究計劃兼任助理",
+      "website": "http://dh-project.blogspot.tw/p/localwiki.html",
+      "startDate": "2014-10-01",
+      "endDate": "2015-11-31",
+      "summary": "在中興大學中文系解昆樺教授的研究計畫擔任研究助理，在這幫忙處理一些資訊相關的問題，協助將台中文史地景數位化，學習跨領域的合作。",
+      "highlights": [
+        "http://dh-project.blogspot.tw/p/localwiki.html"
+      ]
+    },
+    {
+      "company": "中興大學",
+      "position": "校史館工讀生",
+      "website": "http://ir.lib.nchu.edu.tw/",
+      "startDate": "2015-07-01",
+      "endDate": "2018-06-30",
+      "summary": "主要館理圖書館校史館管理機構論文典藏系統，我負 責上傳教授論文以及根據圖書館的需求位系統增加一些功能， 另外會協助校史館的數位策展的寫一些導覽或是形象網頁。",
+      "highlights": [
+        "https://ir.lib.nchu.edu.tw/"
+      ]
+    },
+    {
+      "company": "中興大學",
+      "position": "科技部資安旗艦計畫兼任助理",
+      "website": "",
+      "startDate": "2017-12-01",
+      "endDate": "2018-06-30",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "中興大學資訊社",
+      "position": "副社長",
+      "website": "",
+      "startDate": "2015-09-01",
+      "endDate": "2016-06-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "中興大學資訊社",
+      "position": "社長",
+      "website": "",
+      "startDate": "2016-09-01",
+      "endDate": "2017-06-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "中興大學學生會",
+      "position": "資訊部 副部長",
+      "website": "",
+      "startDate": "2016-09-01",
+      "endDate": "2017-06-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "2017學生計算機年會",
+      "position": "講者",
+      "website": "https://www.slideshare.net/ssuserb8be06/ss-73305383",
+      "startDate": "2017-03-18",
+      "endDate": "2017-03-18",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立中興大學",
+      "area": "資訊科學與工程學系",
+      "studyType": "學士班",
+      "startDate": "2014-09-01",
+      "endDate": "2018-06-30",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "國立交通大學",
+      "area": "資訊工程學系",
+      "studyType": "碩士班",
+      "startDate": "2018-09-14",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "2015年第38次 ITSA 線上程式設計競賽",
+      "date": "2015",
+      "awarder": "績優團隊",
+      "summary": ""
+    },
+    {
+      "title": "中興大學資訊科學與工程學系大學部資訊專題競賽",
+      "date": "2017-06-02",
+      "awarder": "佳作",
+      "summary": "空氣污染監測系統"
+    },
+    {
+      "title": "2017 台灣作業研究協會大專院校專題競賽",
+      "date": "2017-06-16",
+      "awarder": "第三名",
+      "summary": "空氣污染監測系統"
+    },
+    {
+      "title": "2017台大黑客松 威盛電子 OLAMI人機語音交互應用",
+      "date": "2017-07-23",
+      "awarder": "最佳創客獎",
+      "summary": "校史館智慧導覽系統"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "JQuery",
+        "Pug/Jade",
+        "Vue.js",
+        "Sass/Scss"
+      ]
+    },
+    {
+      "name": "Web Back End",
+      "level": "",
+      "keywords": [
+        "Node.js",
+        "PHP(Laravel)",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Nginx",
+        "Ubuntu",
+        "Debian"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "PhotoShop",
+        "Word",
+        "PowerPoint"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
